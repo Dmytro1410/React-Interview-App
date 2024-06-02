@@ -1,0 +1,29 @@
+.pokemon-container {
+    height: calc(35vh - 48px);
+    display: flex;
+    padding: 24px;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.container-reverse {
+    flex-direction: row-reverse;
+}
+
+.pokemon-actions {
+    padding: 12px;
+    border-radius: 16px;
+    border: 1px solid black;
+    height: fit-content;
+    width: 50%;
+}
+
+.pokemon-image-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

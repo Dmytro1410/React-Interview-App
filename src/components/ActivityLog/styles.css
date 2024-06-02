@@ -1,0 +1,9 @@
+.log-container {
+    height: 15vh;
+    width: calc(100% - 96px);
+    border: 1px solid black;
+    border-radius: 16px;
+    margin: 52px 24px 0 24px;
+    padding: 24px;
+    position: relative;
+}

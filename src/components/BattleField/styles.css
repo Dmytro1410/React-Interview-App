@@ -1,0 +1,23 @@
+.battlefield-container {
+    height: 70vh;
+    width: calc(100% - 48px);
+    border: 1px solid black;
+    border-radius: 16px;
+    margin: 24px;
+    position: relative;
+}
+
+.start-battle-btn {
+    position: absolute;
+    right: 0;
+    bottom: -48px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background: #fff;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.start-battle-btn:hover {
+    background: #FAFAFA
+}
